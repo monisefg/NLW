@@ -1,0 +1,36 @@
+header a span{
+  background-image: url(../assets/icones/arrow-left.svg);
+  height: 24px;
+}
+
+header a{
+  flex-direction:row; 
+}
+
+main img{
+  width: 30vw;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.mainContent{
+  margin-top: 10vh;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1em;
+}
+
+.card h3{
+
+font-style: normal;
+font-weight: 500;
+line-height: 1.5em;
+color:var(--primary-color);
+}
+
+.card p{
+
+}
